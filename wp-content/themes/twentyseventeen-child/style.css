@@ -7,16 +7,25 @@ Author URI:
 Template: twentyseventeen
 Version: 0.1.0
 */
-
-p {
-    background-color;
+/* add new colour */
+.social-navigation a {
+	background-color: #767676;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	color: #fff;
+	display: inline-block;
+	height: 40px;
+	margin: 0 1em 0.5em 0;
+	text-align: center;
+	width: 40px;
 }
-/*removes Proudly powered by Wordpress line*/
-.site-info {display:none;}
+/* change widget title colour*/
 
-/*reduces line weight on contact form*/
-label {font-weight: 600;}
-
-/*changes colour on contact form button*/
-button, input[type="button"], input[type="submit"] {
-    background-color: #666;}
+h2.widget-title {
+    color: #595630;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 800;
+    letter-spacing: 0.1818em;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
